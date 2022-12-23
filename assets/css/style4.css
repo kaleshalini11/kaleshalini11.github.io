@@ -1,0 +1,584 @@
+.sidebar_left {
+  position: fixed;
+  width: 340px;
+  top: 0;
+  bottom: 0;
+  background-color: #4e464d;
+}
+
+.sidebar_btn {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+ /* ........................COLOR CODE ......................................  */
+.color {
+  background-color: #ecbfec;
+  color: #6b9dac;
+  background-color: #5c515b;
+  color: #e6ceee;
+}
+
+.page_line {
+  font-size: 15px;
+  display: flex;
+  color: white;
+  vertical-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.page_line .line {
+  width: 100px;
+  height: 3px;
+  background: #fff;
+  margin-left: 15px;
+  margin-top: -13px;
+}
+
+.p1 {
+  margin-left: 5px;
+  padding-left: 45px;
+  color: #ecb5ee;
+}
+
+.sidebar_detail1 {
+  font-size: 15px;
+  color: #92d5de;
+  letter-spacing: 2px;
+}
+
+.sidebar_detail2 {
+  font-size: 15px;
+  color: #f0bcf1
+}
+
+ /* ...............................hide sidebar........................  */
+
+.hidesidebar {
+  background-color: #88788a;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  transition: 0.7s;
+  overflow: hidden;
+ 
+}
+
+.hidden_text {
+  list-style-type: none;
+  font-size: 25px;
+  margin-left: 60px;
+  margin-top: 30px;
+  line-height: 2;
+  color: #92cfde;
+}
+
+.cross {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0px;
+  font-size: 45px;
+}
+
+
+
+
+.right {
+  padding-left: 340px;
+  background-color: #413a40;
+}
+
+.font_1 {
+  font-size: 40px;
+  color: #f5b1e6;
+  margin-top: 100px;
+  margin-left: 40px;
+
+}
+
+.Self_name {
+  font-size: 55px;
+  color: #92ccde;
+  margin-left: 50px;
+  font-weight: 600;
+}
+
+.objective {
+  font-size: 20px;
+  color: #dac0e9;
+  margin-top: 60px;
+}
+
+.About_carrier {
+  font-size: 20px;
+  color: #cfa1d3;
+  margin-top: 60px;
+}
+
+.social_network {
+  margin-left: 45px;
+  font-size: 15px;
+  margin-top: 100px;
+  color: #92d3de;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 5;
+}
+
+.social:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.box {
+  border: 2px solid #425664;
+  background-color: #425664;
+
+  height: 42%;
+  width: 100%;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+.p {
+  color: #edcdf5;
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 0.8;
+  font-weight: 500;
+}
+
+.h {
+  color: #92cfde;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.service {
+  color: #92c0de;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.Addrees {
+  font-size: 30px;
+  color: #ddb8e2;
+}
+
+.btn2 {
+  width: max-content;
+  border: 2px solid #1F3044;
+  border-radius: 30px;
+  background-color: #425664;
+  color: #faefff;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.btn2:hover {
+  background-color: #1F3044;
+  transition: 0.5s;
+}
+
+.btn_div {
+  margin-top: 50px;
+}
+
+.drop {
+  color: #DEB992;
+  font-size: 20px;
+
+}
+
+.text1 {
+  color: #090541;
+  cursor: pointer;
+}
+
+.text2 {
+  font-size: 30px;
+  color: #DEB992;
+}
+
+/* .................................image overlay .................................  */
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 98%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img_contain {
+  color: #1BA098;
+  font-size: 20px;
+}
+
+
+.c-timeline__item {
+  position: relative;
+  display: flex;
+  gap: 1.8 rem;
+}
+
+.c-timeline__item:last-child .c-timeline__content:before {
+  display: none;
+}
+
+.c-timeline__content {
+  flex: 1;
+  position: relative;
+  order: 1;
+  padding-left: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.c-timeline__content:before {
+  content: "";
+  position: absolute;
+  margin-top: 29px;
+  right: 100%;
+  top: 2;
+  height: 75%;
+  width: 2px;
+  background-color: #1BA098;
+}
+
+.c-timeline__content:after {
+  content: "";
+  position: absolute;
+  left: calc(0px - 11px);
+  top: 0;
+  width: 20px;
+  height: 20px;
+
+  background-color: transparent;
+  z-index: 1;
+  border: 2px solid #1F3044;
+  border-radius: 50%;
+}
+
+
+.c-timeline__title {
+
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+  color: #1BA098;
+}
+
+.c-timeline__title:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.c-timeline__desc {
+  color: #c6646b;
+}
+
+time {
+  text-align: end;
+  flex: 0 0 100px;
+  min-width: 0;
+  overflow-wrap: break-word;
+  padding-bottom: 1rem;
+  color: #eeb6e6;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+time:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+.wrapper {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+}
+
+.cover_text {
+  color: #92c0de;
+}
+
+ /* .....................................circular progress bar ..............................  */
+
+.circle {
+  margin-top: 40px;
+}
+
+@keyframes growProgressBar {
+
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 15rem;
+  --fg: #e1b7e9;
+  --bg: #838c97;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 60%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(closest-side, #1F3044 70%, transparent 0 99.9%, #af9292 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+}
+
+.circle_font {
+  color: #92ccde;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+/* .................................progress bar ..........................  */
+
+.progress_bar {
+  position: absolute;
+  top: 16%;
+  left: 80%;
+  font-size: 30px;
+  color: #fdccfb;
+}
+
+.progress_color {
+  color: #f8c2f4;
+}
+
+.progressbar_font {
+  color: #92dcde;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.progressmarg {
+  margin-top: 10%;
+}
+
+.progressmarg1 {
+  margin-top: 7%;
+}
+
+
+
+
+.about_me {
+  margin-top: 10%;
+}
+
+.qualification {
+  color: #92c0de;
+}
+
+.education {
+  color: #e2b7d4;
+}
+
+.address_my {
+  color: #e9c8f3;
+  font-size: 20px;
+}
+
+
+
+.input {
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  outline: none;
+  color: white;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.input2 {
+  background-color: transparent;
+  border: none;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 90%;
+  outline: none;
+  color: white;
+}
+
+.form_box {
+  margin-left: 15px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 80%;
+  background-color: #425664;
+}
+
+.btn4 {
+  background-color: transparent;
+  border-color: white;
+  height: 50px;
+  width: 90%;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+
+.mobilesidebar {
+  top: 0%;
+  height: 787px;
+  position: fixed;
+  width: 0%;
+  left: 0;
+  background-color: #425664;
+  transition: 0.4s;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.mob_line {
+  font-size: 15px;
+  display: flex;
+  color: white;
+  vertical-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.mob_line .line {
+  width: 100px;
+  height: 3px;
+  background: #fff;
+  margin-left: 15px;
+  margin-top: -13px;
+}
+
+.p1 {
+  margin-left: 5px;
+  padding-left: 45px;
+  color: #d3abd6;
+}
+
+.mobile_view {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  height: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+  .right {
+    padding-left: 0px;
+  }
+
+  .sidebar_left {
+    display: none;
+  }
+
+  .Circle_marg {
+    margin-left: 70px;
+  }
+
+  .pro_img {
+    display: none;
+  }
+
+  .social_network {
+    margin-left: 0px;
+  }
+
+  .mt5 {
+    left: 0px;
+    position: absolute;
+  }
+
+  .mob_side {
+    width: 100%;
+  }
+
+  .About_carrier {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .right {
+    padding-left: 0px;
+  }
+
+  .sidebar_left {
+    display: none;
+  }
+
+}
